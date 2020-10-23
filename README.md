@@ -1,6 +1,6 @@
 # COMET: Context-aware iOu-guided network for sMall objEct Tracking ([arXiv](https://arxiv.org/pdf/2006.02597.pdf))
 We consider the problem of tracking an unknown small target from aerial videos of medium to high altitudes. This is a challenging problem, which is even more pronounced in unavoidable scenarios of drastic camera motion and high density. To address this problem, we introduce a context-aware IoU-guided tracker (COMET) that exploits a multitask two-stream network and an offline reference proposal generation strategy. The proposed network fully exploits target-related information by multi-scale feature learning and attention modules. The proposed strategy introduces an efficient sampling strategy to generalize the network on the target and its parts without imposing extra computational complexity during online tracking. These strategies contribute considerably in handling significant occlusions and viewpoint changes. Empirically, COMET outperforms the state-of-the-arts in a range of aerial view datasets that focusing on tracking small objects. Specifically, COMET outperforms the celebrated ATOM tracker by an average margin of 6.2% (and 7%) in precision (and success) score on challenging benchmarks of UAVDT, VisDrone-2019, and Small-90.
-## Qualitative comparisons of COMET with state-of-the-art methods on broad range of small object tracking benchmarks
+## YouTube Video:
 [Video](https://www.youtube.com/watch?v=wG9Ca2cRPik&feature=youtu.be)
 ## Codes and results will be available on https://github.com/VisualTrackingVLL
 <!---
